@@ -1,0 +1,26 @@
+<resources>
+<string name="app_name">MySurvey</string>
+<string name="permission_camera" translatable="false">扫码需要用到拍摄权限</string>
+<string name="permission_external_storage" translatable="false">需要用到读写权限</string>
+<string name="tips_scan_code" translatable="false">将二维码/条形码放入框内，即可自动扫描</string>
+<string name="qr_code" translatable="false">二维码</string>
+<string name="bar_code" translatable="false">条形码</string>
+
+<string name="title" translatable="false">欢迎来</string>
+<string name="w_2" translatable="false">参加我们的调查！</string>
+<string name="w_3" translatable="false">在开始之前，您需要了解以下几点：</string>
+<string name="w_4" translatable="false">-请诚实的进行选择。\n\n
+                       -我们只是在做一项调查，因此您不必伪造您的信息。\n\n
+                       -请按照我们为您设计的步骤，不要跳过任何问题。
+</string>
+<string name="w_5" translatable="false">我接受这些要求。</string>
+<string name="w_6" translatable="false">开始吧！</string>
+    <string name="m_btn_SetLanguage">语言设置</string>
+    <string name="A2_scan">扫描填写问卷</string>
+    <string name="A3_getQue">问题：</string>
+    <string name="A3_btnStart">开始</string>
+    <string name="Rport_btn" translatable="false">完成</string>
+    <string name="A2_getJson">不扫描（直接开始)</string>
+    <string name="A3_confirm" translatable="false">完成</string>
+    <string name="A3_choose" translatable="false">选择</string>
+</resources>

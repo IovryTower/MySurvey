@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">MySurvey</string>
+    <string name="permission_camera">Scanning code requires shooting permission</string>
+    <string name="permission_external_storage">Requires read and write permissions</string>
+    <string name="tips_scan_code">Put the QR code / barcode into the box and it will scan automatically</string>
+    <string name="qr_code">QR code</string>
+    <string name="bar_code">Bar code</string>
+
+    <string name="title">WELCOME TO</string>
+    <string name="w_2">TAKE PART IN OUR SURVEY!</string>
+    <string name="w_3">Before we start,here are things you should know:</string>
+    <string name="w_4">-Please be honest when making your choice.\n\n
+                       -We are just doing a reaserch so you don\'t have to fake your information.\n\n
+                       -Please follow the step we designed for you an don\'t skip any questions.
+    </string>
+    <string name="w_5">I accept these requests.</string>
+    <string name="w_6">LET\'S START!</string>
+    <string name="m_btn_SetLanguage" translatable="false">Language setting</string>
+    <string name="A2_scan" translatable="false">Scan QR to fill in the questionnaire</string>
+    <string name="A3_getQue" translatable="false">Questions:</string>
+    <string name="A3_btnStart" translatable="false">Start</string>
+    <string name="Rport_btn" translatable="false">FINISH</string>
+    <string name="A2_getJson" translatable="false">Not to scan(Start directly)</string>
+    <string name="A3_choose" translatable="false">CHOOSE</string>
+    <string name="A3_confirm" translatable="false">CONFIRM</string>
+
+</resources>
