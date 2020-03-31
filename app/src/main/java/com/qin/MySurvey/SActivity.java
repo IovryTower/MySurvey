@@ -71,10 +71,10 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
 
     public void GetStart(View v){
 
-        result= getJson("test2",context);
+        result= getJson("test1",context);
 
         Intent intent = new Intent(SActivity.this,
-                GetScan.class);
+                Question.class);
         startActivity(intent);
 
     }
@@ -83,6 +83,7 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
+        ExitApplication.getInstance().addActivity(this);
 
         if(resultCode == RESULT_OK && data!=null){
             if (requestCode == REQUEST_CODE_SCAN) {
@@ -92,7 +93,7 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
             }
 
             Intent intent = new Intent(SActivity.this,
-                    GetScan.class);
+                            Question.class);
             startActivity(intent);
         }
     }
@@ -162,18 +163,6 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
         }
         return stringBuilder.toString();
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

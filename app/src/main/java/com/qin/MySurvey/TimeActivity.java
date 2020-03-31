@@ -39,6 +39,9 @@ public class TimeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time);
+
+        ExitApplication.getInstance().addActivity(this);
+
         t1 = (TextView) findViewById(R.id.time);
         t2 = (TextView) findViewById(R.id.location);
         b1=findViewById(R.id.btn1);
@@ -47,6 +50,9 @@ public class TimeActivity extends AppCompatActivity {
         b1.setOnClickListener(this::gettime);
         b2.setOnClickListener(this::getlocation);
         b3.setOnClickListener(this::next);
+
+        ImNext();
+
     }
 
    //定位按键响应
@@ -150,4 +156,16 @@ public class TimeActivity extends AppCompatActivity {
                 Report.class);
         startActivity(intent);
     }
+
+    void ImNext(){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        Date date = new Date(System.currentTimeMillis());
+        time1=simpleDateFormat.format(date);
+        t1.setText(simpleDateFormat.format(date));
+
+        Intent intent = new Intent(TimeActivity.this,
+                Report.class);
+        startActivity(intent);
+    }
+
 }

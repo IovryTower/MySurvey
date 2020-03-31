@@ -20,6 +20,9 @@ public class EasyCaptureActivity  extends CaptureActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
+
+        ExitApplication.getInstance().addActivity(this);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView tvTitle = findViewById(R.id.tvTitle);
         tvTitle.setText(getIntent().getStringExtra(SActivity.KEY_TITLE));

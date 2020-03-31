@@ -12,23 +12,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.qin.MySurvey.UnlockView"   android:configChanges="locale"></activity>
-        <activity android:name="com.qin.MySurvey.Report"   android:configChanges="locale" />
-        <activity android:name="com.qin.MySurvey.GetScan"   android:configChanges="locale" />
-        <activity android:name="com.qin.MySurvey.MainActivity" android:configChanges="locale">
+        <activity android:name=".Question"></activity>
+        <activity
+            android:name=".UnlockView"
+            android:configChanges="locale" />
+        <activity
+            android:name=".Report"
+            android:configChanges="locale" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="locale">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.qin.MySurvey.SActivity"   android:configChanges="locale" />
-        <activity android:name="com.qin.MySurvey.TimeActivity"    android:configChanges="locale"/>
+        <activity
+            android:name=".SActivity"
+            android:configChanges="locale" />
+        <activity
+            android:name=".TimeActivity"
+            android:configChanges="locale" />
         <activity
             android:name="com.king.zxing.CaptureActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="locale"/>
-        <activity android:name="com.qin.MySurvey.EasyCaptureActivity"   android:configChanges="locale" />
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EasyCaptureActivity"
+            android:configChanges="locale" />
     </application>
 
 </manifest>
