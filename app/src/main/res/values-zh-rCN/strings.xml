@@ -23,4 +23,17 @@
     <string name="A2_getJson">不扫描（直接开始)</string>
     <string name="A3_confirm" translatable="false">完成</string>
     <string name="A3_choose" translatable="false">选择</string>
+    <string name="A2_BtnBuild">创建问卷</string>
+    <string name="Bu_title">请设置问题的类型</string>
+    <string name="Bu_single">单选</string>
+    <string name="Bu_multiple">多选</string>
+    <string name="Bu_fill">填写</string>
+    <string name="Bu_EnterId">请输入你的问题调查的ID</string>
+    <string name="Bu_question_title">请输入您的问题题目</string>
+    <string name="Bu_options">请输入您的问题选项</string>
+    <string name="Bu_add_option">增加选项</string>
+    <string name="Bu_add_question">增加这个问题</string>
+    <string name="BuF_test">在这个程序中测试</string>
+    <string name="BuF_QR" translatable="false">生成二维码</string>
+    <string name="BuQR_generate">生成</string>
 </resources>

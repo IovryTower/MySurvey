@@ -23,5 +23,18 @@
     <string name="A2_getJson" translatable="false">Not to scan(Start directly)</string>
     <string name="A3_choose" translatable="false">CHOOSE</string>
     <string name="A3_confirm" translatable="false">CONFIRM</string>
+    <string name="A2_BtnBuild" translatable="false">Create a questionnaire</string>
+    <string name="Bu_title" translatable="false">Please set the type of the question</string>
+    <string name="Bu_single" translatable="false">single</string>
+    <string name="Bu_multiple" translatable="false">multiple</string>
+    <string name="Bu_fill" translatable="false">fill</string>
+    <string name="Bu_EnterId" translatable="false">Please enter your survey\'s id</string>
+    <string name="Bu_question_title" translatable="false">Please enter your question title</string>
+    <string name="Bu_options" translatable="false">Please enter your question options</string>
+    <string name="Bu_add_option" translatable="false">Add option</string>
+    <string name="Bu_add_question" translatable="false">Add this question</string>
+    <string name="BuF_test" translatable="false">Test it in this app</string>
+    <string name="BuF_QR" translatable="false">Generate QR code</string>
+    <string name="BuQR_generate" translatable="false">Generate</string>
 
 </resources>

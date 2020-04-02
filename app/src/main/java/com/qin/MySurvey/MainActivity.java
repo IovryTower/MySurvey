@@ -13,18 +13,6 @@ import android.widget.RadioGroup;
 
 import java.util.Locale;
 
-
-/*
-1280 x 800
-
-600 x 1024
-
-800 x 480
-*/
-
-
-
-
 public class MainActivity extends AppCompatActivity {
 
     protected Button w_btn,lang_btn;

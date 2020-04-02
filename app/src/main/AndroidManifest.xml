@@ -7,15 +7,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Question"></activity>
-        <activity
-            android:name=".UnlockView"
-            android:configChanges="locale" />
+        <activity android:name=".BuildQuestion" android:configChanges="locale"  />
+        <activity android:name=".Question" android:configChanges="locale" />
         <activity
             android:name=".Report"
             android:configChanges="locale" />
@@ -40,6 +38,12 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".EasyCaptureActivity"
+            android:configChanges="locale" />
+        <activity
+            android:name=".Build_Finish"
+            android:configChanges="locale" />
+        <activity
+            android:name=".Build_QR"
             android:configChanges="locale" />
     </application>
 

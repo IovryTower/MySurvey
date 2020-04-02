@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txt_text_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/A3_getQue"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_questions_m"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txt_text_s"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/txt_questions_m"
+        android:id="@+id/choose_m_1"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/choose_m_1"
+        android:id="@+id/choose_m_2"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/choose_m_2"
+        android:id="@+id/choose_m_3"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/choose_m_3"
+        android:id="@+id/choose_m_4"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/choose_m_4"
+        android:id="@+id/choose_m_5"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_m_5"
+        android:visibility="invisible"
+        android:id="@+id/choose_m_6"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/choose_m_6"
+        android:id="@+id/choose_m_7"
+        />
+
+    <Button
+        android:id="@+id/bt_choose_m"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/A3_btnStart"
+        android:textSize="18sp" />
+
+</RelativeLayout>

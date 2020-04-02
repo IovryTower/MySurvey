@@ -40,7 +40,7 @@
         android:layout_height="110dp"
         android:layout_below="@id/im1"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="114dp"
+        android:layout_marginTop="113dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="6dp"
         android:background="#673AB7"
@@ -49,5 +49,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
+    <Button
+        android:id="@+id/btn_build"
+        android:layout_width="174dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/im1"
+        android:layout_marginTop="113dp"
+        android:layout_marginLeft="200dp"
+        android:background="#4CAF50"
+        android:text="@string/A2_BtnBuild"
+        android:textSize="18sp"
+        android:layout_marginStart="200dp" />
 
 </RelativeLayout>

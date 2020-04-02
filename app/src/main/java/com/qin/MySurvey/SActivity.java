@@ -37,7 +37,7 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
     public static final int REQUEST_CODE_SCAN = 0X01;
     public static final int RC_CAMERA = 0X01;
     public static String result;
-    protected Button btn_s,btn_getJ;
+    protected Button btn_s,btn_getJ,btn_build;
 
     private Class<?> cls;
     private String title;
@@ -51,12 +51,15 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sc);
 
+        ExitApplication.getInstance().addActivity(this);
         context=getApplicationContext();
 
         btn_s=findViewById(R.id.btn0);
         btn_getJ=findViewById(R.id.btn_getJson);
+        btn_build=findViewById(R.id.btn_build);
         btn_s.setOnClickListener(this::Scan);
         btn_getJ.setOnClickListener(this::GetStart);
+        btn_build.setOnClickListener(this::BuildStr);
 
     }
 
@@ -78,6 +81,14 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
         startActivity(intent);
 
     }
+
+    public void BuildStr(View v){
+        Intent intent = new Intent(SActivity.this,
+                BuildQuestion.class);
+        startActivity(intent);
+    }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -163,6 +174,5 @@ public class SActivity  extends AppCompatActivity implements EasyPermissions.Per
         }
         return stringBuilder.toString();
     }
-
 
 }
